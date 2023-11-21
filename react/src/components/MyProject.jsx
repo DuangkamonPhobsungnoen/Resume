@@ -1,71 +1,41 @@
 import React from "react";
-import image_sababook01 from "../assets/img/Sababook-1.png";
-import image_sababook02 from "../assets/img/Sababook-2.png";
+import image_sababook from "../assets/img/Sababook-2.png";
+import image_database from "../assets/img/Database-1.png";
+import image_webpro from "../assets/img/Webpro-1.png"
+import image_sop from "../assets/img/Sop-1.png"
+import ProjectCard from "./ProjectCard";
 
 function MyProject() {
   return (
-    <div class="text-2xl font-bold px-10 pt-5">
-      My Proiect
-      <div className="p-2">
-        <div class="text-sm relative">
-          Project Name : Sababook <br></br> Date : Jan 2022
-          <div className="absolute top-0 right-0">
-            <div className="flex flex-row ">
-              <div className="px-1">
-                <a className="" href="https://github.com/Dnuangkamon/Sababooks">
-                  <img
-                    width="40"
-                    height="35"
-                    src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/FFFFFF/external-github-with-cat-logo-an-online-community-for-software-development-logo-regular-tal-revivo.png"
-                    alt="external-github-with-cat-logo-an-online-community-for-software-development-logo-regular-tal-revivo"
-                  />
-                </a>
-              </div>
-              <a href="https://www.canva.com/design/DAFQnZ3-2Uk/mu4kN_x_audDBJ0n1dTIVQ/edit">
-                <img
-                  width="42"
-                  height="37"
-                  src="https://img.icons8.com/ios-filled/50/FFFFFF/canva.png"
-                  alt="canva"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="pt-1">
-          <img src={image_sababook02}></img>
-        </div>
-      </div>
-      <div className="p-2">
-        <div class="text-sm relative">
-          Project Name : Database, Web Pro, ลงทะเบียนเรียน, Hermoon, SOP <br></br> Date : Jan 2022
-          <div className="absolute top-0 right-0">
-            <div className="flex flex-row ">
-              <div className="px-1">
-                <a className="" href="https://github.com/Dnuangkamon/Sababooks">
-                  <img
-                    width="40"
-                    height="35"
-                    src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/FFFFFF/external-github-with-cat-logo-an-online-community-for-software-development-logo-regular-tal-revivo.png"
-                    alt="external-github-with-cat-logo-an-online-community-for-software-development-logo-regular-tal-revivo"
-                  />
-                </a>
-              </div>
-              <a href="https://www.canva.com/design/DAFQnZ3-2Uk/mu4kN_x_audDBJ0n1dTIVQ/edit">
-                <img
-                  width="42"
-                  height="37"
-                  src="https://img.icons8.com/ios-filled/50/FFFFFF/canva.png"
-                  alt="canva"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="pt-1">
-          <img src={image_sababook02}></img>
-        </div>
-      </div>
+    <div className="text-2xl font-bold px-10 pt-5">
+      <ProjectCard
+        projectName="Sababook"
+        date="Jan 2022"
+        githubLink="https://github.com/Dnuangkamon/Sababooks"
+        designLink="https://www.canva.com/design/DAFQnZ3-2Uk/mu4kN_x_audDBJ0n1dTIVQ/edit"
+        imageSrc={image_sababook}
+      />
+      <ProjectCard
+        projectName="Filmary"
+        date="Apr 2023"
+        githubLink="https://github.com/DuangkamonPhobsungnoen/PROJECT-DATABASE"
+        designLink="https://www.figma.com/file/FOJvEA9jbE3NLZZHlwKWx4/Filmary?type=design&node-id=0-1&mode=design&t=uygNqza4uDiH3heV-0"
+        imageSrc={image_database}
+      />
+      <ProjectCard
+        projectName="ChaoCarHUB"
+        date="Jun 2023"
+        githubLink="https://github.com/DuangkamonPhobsungnoen/PROJECT-WEBPRO_V2"
+        designLink="https://www.figma.com/file/eeNMHyxpyoADhMvEVxvpeE/WEBPRO?type=design&node-id=4-2&mode=design&t=x9XUWKCGnftVDPkI-0"
+        imageSrc={image_webpro}
+      />
+      <ProjectCard
+        projectName="Weenteen"
+        date="Nov 2023"
+        githubLink="https://github.com/t0ngk/webteen-frontend"
+        designLink="https://www.figma.com/file/np3WlnHyCkX0254bSn8Uio/Prototype-SOP?type=design&node-id=31-22&mode=design&t=sNJxNVxvGn1CVmEK-0"
+        imageSrc={image_sop}
+      />
     </div>
   );
 }
