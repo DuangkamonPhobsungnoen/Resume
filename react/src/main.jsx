@@ -7,6 +7,7 @@ import MyBannar from "./components/MyBannar";
 import AboutMe from "./components/AboutMe";
 import MySkills from "./components/MySkills";
 import MyProject from "./components/MyProject";
+import Activity from "./components/Activity";
 
 const Contents = () => {
   return (
@@ -16,6 +17,7 @@ const Contents = () => {
       <AboutMe/>
       <MySkills/>
       <MyProject/>
+      <Activity/>
       <MyFooter/>
     </div>
   );

@@ -7,7 +7,9 @@ import ProjectCard from "./ProjectCard";
 
 function MyProject() {
   return (
-    <div className="text-2xl font-bold px-10 pt-5">
+    <>
+    <div className="px-10 pt-5">
+    <div className="text-2xl font-bold  text-white">My Projects</div>
       <ProjectCard
         projectName="Sababook"
         date="Jan 2022"
@@ -36,7 +38,8 @@ function MyProject() {
         designLink="https://www.figma.com/file/np3WlnHyCkX0254bSn8Uio/Prototype-SOP?type=design&node-id=31-22&mode=design&t=sNJxNVxvGn1CVmEK-0"
         imageSrc={image_sop}
       />
-    </div>
+      <div className="text-xl justify-center text-center text-gray-500 hover:text-pink-600 active:text-pink-700 focus:outline-none focus:ring focus:ring-pink-300">See more projects  ▶ ▶</div>
+    </div></>
   );
 }
 
