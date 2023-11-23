@@ -8,6 +8,7 @@ import AboutMe from "./components/AboutMe";
 import MySkills from "./components/MySkills";
 import MyProject from "./components/MyProject";
 import Activity from "./components/Activity";
+import ContactMe from "./components/ContactMe";
 
 const Contents = () => {
   return (
@@ -18,6 +19,7 @@ const Contents = () => {
       <MySkills/>
       <MyProject/>
       <Activity/>
+      <ContactMe/>
       <MyFooter/>
     </div>
   );
