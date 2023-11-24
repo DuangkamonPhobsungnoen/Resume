@@ -7,44 +7,9 @@ const ProjectCard = ({
   designLink,
   imageSrc,
   tools,
+  content
 }) => {
   return (
-    // <div className="p-2">
-    //   <div className="text-base relative">
-    //     Project Name: {projectName} <br />
-    //     Tools : {tools} <br/>
-    //     Date: {date}
-    //     <div className="absolute top-0 right-0">
-    //       <div className="flex flex-row">
-    //         <div className="px-1">
-    //           <a className="" href={githubLink}>
-    //             <img
-    //               width="25"
-    //               height="30"
-    //               src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/FFFFFF/external-github-with-cat-logo-an-online-community-for-software-development-logo-regular-tal-revivo.png"
-    //               alt="GitHub"
-    //             />
-    //           </a>
-    //         </div>
-    //         <a href={designLink}>
-    //           <img
-    //             width="25"
-    //             height="30"
-    //             src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/FFFFFF/external-figma-social-media-tanah-basah-basic-outline-tanah-basah.png"
-    //             alt="Figma"
-    //           />
-    //         </a>
-    //       </div>
-    //     </div>
-    //   </div>
-    //   <div className="pt-1 flex justify-center">
-    //   {imageSrc && (
-    //     <div className="pt-1">
-    //       <img src={imageSrc} alt={projectName} />
-    //     </div>
-    //   )}
-    //   </div>
-    // </div>
     <div className="py-5">
       <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
         <div
@@ -61,9 +26,8 @@ const ProjectCard = ({
           <h5 class="mb-2 text-base font-medium leading-tight text-neutral-800 dark:text-neutral-50 font-bold">
             Project Name: {projectName} <br />
           </h5>
-          <p class="mb-4 text-sm text-neutral-600 dark:text-neutral-200">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <p class="mb-4 text-xs text-neutral-600 dark:text-neutral-200">
+            {content}
           </p>
           <div className="flex justify-end">
           <div className="flex flex-row">
