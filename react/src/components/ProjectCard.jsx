@@ -12,8 +12,8 @@ const ProjectCard = ({ projectName, date, githubLink, designLink, imageSrc, tool
             <div className="px-1">
               <a className="" href={githubLink}>
                 <img
-                  width="30"
-                  height="35"
+                  width="25"
+                  height="30"
                   src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/FFFFFF/external-github-with-cat-logo-an-online-community-for-software-development-logo-regular-tal-revivo.png"
                   alt="GitHub"
                 />
@@ -21,8 +21,8 @@ const ProjectCard = ({ projectName, date, githubLink, designLink, imageSrc, tool
             </div>
             <a href={designLink}>
               <img
-                width="30"
-                height="37"
+                width="25"
+                height="30"
                 src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/FFFFFF/external-figma-social-media-tanah-basah-basic-outline-tanah-basah.png"
                 alt="Figma"
               />

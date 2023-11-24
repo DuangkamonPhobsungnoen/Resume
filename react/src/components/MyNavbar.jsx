@@ -9,8 +9,8 @@ function MyNavbar() {
     });
   };
   return (
-    <nav class="bg-black border-gray-200 dark:bg-gray-900">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav class="bg-black border-gray-200 fixed top-0 left-0 w-full z-20">
+      <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <a
           href="https://flowbite.com/"
           class="flex items-center space-x-3 rtl:space-x-reverse"
@@ -30,7 +30,7 @@ function MyNavbar() {
             type="button"
             id="footer"
             onClick={handleContactClick}
-            class="text-gray-100 bg-gradient-to-r from-purple-800 to-pink-400 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
+            class="text-gray-100  hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
           >
             Contact me
           </button>

@@ -15,7 +15,7 @@ const Contents = () => {
     <div className="bg-black text-white">
       <MyNavbar/>
       <MyBannar/>
-      <AboutMe/>
+      {/* <AboutMe/> */}
       <MySkills/>
       <MyProject/>
       <Activity/>
