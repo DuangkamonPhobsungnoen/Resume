@@ -7,7 +7,7 @@ function MyBannar() {
         <div className="w-full m-auto text-center">
           <div className="text-3xl text-gray-500 animate-charcter font-bold pb-5">FRONT-END DEVELOPER</div>
           <div className="flex justify-center">
-            <div className="text-xl font-bold mb-10">
+            <div className="text-lg font-bold mb-10">
               DUANGKAMON PHOBSUNGNOEN
             </div>
           </div>

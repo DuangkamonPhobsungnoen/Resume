@@ -2,7 +2,7 @@ import React from "react";
 
 function MySkills() {
   return (
-    <>
+    <div className="h-screen w-full">
       <div className="text-2xl font-bold  text-white px-10 pt-5 pb-2">My Skills</div>
       <div class="gap-8 sm:grid sm:grid-cols-2 px-10  text-white">
         <div>
@@ -122,7 +122,7 @@ function MySkills() {
           </dl>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

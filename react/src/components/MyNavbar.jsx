@@ -10,6 +10,7 @@ function MyNavbar() {
   };
   return (
     <nav class="bg-black border-gray-200 fixed top-0 left-0 w-full z-20">
+      
       <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <a
           href="https://flowbite.com/"
