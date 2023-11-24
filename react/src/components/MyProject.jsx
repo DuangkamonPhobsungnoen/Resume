@@ -20,7 +20,7 @@ function MyProject() {
         <ProjectCard
           projectName="Sababook"
           date="Jan 2022"
-          tools="HTML, CSS, Javascript, PHP, Bootstrap"
+          tools="HTML, CSS, JavaScript, PHP, Bootstrap"
           content="Project from Web Technology cours"
           githubLink="https://github.com/Dnuangkamon/Sababooks"
           designLink="https://www.canva.com/design/DAFQnZ3-2Uk/mu4kN_x_audDBJ0n1dTIVQ/edit"
@@ -28,7 +28,7 @@ function MyProject() {
         />
         <ProjectCard
           projectName="Filmary"
-          tools="Vue.js, CSS, Bulma, Javascript, MySql"
+          tools="Vue.js, CSS, Bulma, JavaScript, MySql"
           date="Apr 2023"
           content="Project from Database systems concepts cours"
           githubLink="https://github.com/DuangkamonPhobsungnoen/PROJECT-DATABASE"
@@ -37,7 +37,7 @@ function MyProject() {
         />
         <ProjectCard
           projectName="ChaoCarHUB"
-          tools="Vue.js, Tailwind, Javascript, MySql"
+          tools="Vue.js, Tailwind, JavaScript, MySql"
           date="Jun 2023"
           content="Project from Web programming cours"
           githubLink="https://github.com/DuangkamonPhobsungnoen/PROJECT-WEBPRO_V2"
@@ -46,7 +46,7 @@ function MyProject() {
         />
         <ProjectCard
           projectName="Weenteen"
-          tools="Svelte, Tailwind, Javascript, Java, MongoDB"
+          tools="Svelte, Tailwind, JavaScript, Java, MongoDB"
           date="Nov 2023"
           content="Project from Service-oriented programming cours"
           githubLink="https://github.com/t0ngk/webteen-frontend"
@@ -62,7 +62,7 @@ function MyProject() {
           <>
             <ProjectCard
               projectName="HerMoon"
-              tools="React Native, Javascript, Firebase"
+              tools="React Native, JavaScript, Firebase"
               date="Nov 2023"
               content="Project from Mobile device programming cours"
               githubLink="https://github.com/PR-800/HerMoon"
